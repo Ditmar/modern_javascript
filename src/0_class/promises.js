@@ -3,7 +3,7 @@ const myPromise = () => {
     const a = 5;
     const b = 10;
     //== , ====
-    if (a + b !== 15) {
+    if (a + b === 15) {
       resolve("correcto");
     } else {
       reject("incorrecto");
